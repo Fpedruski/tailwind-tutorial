@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite "
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Fpedruski/tailwind-tutorial/issues"
   },
-  "homepage": "https://github.com/Fpedruski/tailwind-tutorial#readme"
+  "homepage": "https://github.com/Fpedruski/tailwind-tutorial#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4",
+    "vite": "^2.3.6"
+  }
 }
