@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind-TUTORIAL</title>
-    <link rel="stylesheet" href="/css/tailwind.css">
-</head>
+    <link rel="stylesheet" href="/css/tailwind.css" />
+  </head>
 
-<body class="bg-gray-100">
-    <div class="px-8 py-12 min-w-full">
+  <body class="bg-gray-300">
+    <div class="grid lg:grid-cols-2 2xl:grid-cols-5 bg-gray-100">
+        <div class="px-8 py-12 mx-auto sm:max-w-xl lg:px-12 lg:py-28 lg:max-w-full">
+    <div>
         <a href=" #">
-            <img class="h-12" src="/img/logo.svg" alt="Workcation" />
+            <img class="h-10" src="/img/logo.svg" alt="Workcation" />
         </a>
-        <img class="mt-6 rounded-lg shadow-xl" src="/img/beach-work.jpg" alt="Working over" />
-        <h1 class=" font-bold text-2xl text-gray-900 ">
+        <img
+            class="
+            mt-6
+            rounded-lg
+            shadow-xl
+            sm:mt-8
+            sm:h-64
+            sm:w-full
+            sm:object-cover
+            object-center
+            lg:hidden
+            "
+            src="/img/beach-work.jpg"
+            alt="Working over"
+        />
+        <h1 class="mt-6 font-bold text-2xl sm:text-4xl text-gray-900 sm:mt-8 lg:text-3x xl:text-4xl">
             You can work from anywhere.
+            <br class="hidden lg:inline">
             <span class="text-indigo-500 mr-20 ">Take advantage of it.</span>
         </h1>
 
-        <p class=" mt-2 py-5 text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Omnis dolorem sint facilis,
-            consectetur dolores saepe id
-            quidem eligendi modi unde aspernatur corporis odit
-            corrupti nobis. Labore dolorem sequi eos similique.
+        <p class="mt-2 py-5 text-gray-600">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dolorem
+            sint facilis, consectetur dolores saepe id quidem eligendi modi unde
+            aspernatur corporis odit corrupti nobis. Labore dolorem sequi eos
+            similique.
         </p>
-        <div class=" pb-10">
-            <a class="inline-block px-4 py-3 py-2shadow-lg uppercase 
-                bg-indigo-500 text-red-100 rounded-lg tracking-wide font-semibold text-sm" href="#">Book your
-                escape</a>
+        <div class="pb-10">
+            <a
+            class="
+                inline-block
+                px-4
+                py-3 py-2shadow-lg
+                uppercase
+                bg-indigo-500
+                text-white
+                rounded-lg
+                tracking-wide
+                font-semibold
+                text-sm
+                sm:text-base
 
+            "
+            href="#"
+            >Book your escape</a
+            >
         </div>
-
+        </div>
+        </div>
+        <div class="hidden lg:block relative" >
+            <img class="absolute inset-0 w-full h-full object-cover object-center"
+            src="/img/beach-work.jpg"
+            alt="Working over"
+        />
+        </div>
     </div>
-
-</body>
-
-
+  </body>
 </html>
