@@ -8,7 +8,10 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor:["active"],
+      fontSize:["hover"],
+    },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-debug-screens")],
 };
