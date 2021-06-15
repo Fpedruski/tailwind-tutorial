@@ -32,7 +32,14 @@
  *  
  *------------------------**/
 @layer components {
-  .btn {
-    @apply inline-block px-5 py-3 rounded-lg transform transition bg-indigo-500 hover:bg-indigo-400 hover:-translate-y-0.5 focus:ring-indigo-500 focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-indigo-600 uppercase tracking-wider font-semibold text-sm text-white shadow-lg sm:text-base;
+  .btn{
+    @apply inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 sm:text-base uppercase tracking-wider font-semibold text-sm focus:ring-opacity-50 
+  }
+
+  .btn-primary {
+    @apply  bg-indigo-500 hover:bg-indigo-400 focus:ring-indigo-500  active:bg-indigo-600 text-white ;
+  }
+  .btn-secondary {
+    @apply bg-gray-300 hover:bg-gray-200 focus:ring-gray-300  active:bg-gray-500 text-gray-800 ;
   }
 }
