@@ -4,7 +4,8 @@
 
 Follwing and engaging with the tutorial from TailwindLabs
 
-Without knoladge from React at the moment... 
+Without knowladge from React at the moment... [stopped at the 6th episode]
+
 Creation of a web landing.
 
 Why Tailwind?
