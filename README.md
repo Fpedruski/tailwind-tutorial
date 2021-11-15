@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-
-<h1 align="center">Hello</h1>
-
-
-Working with
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.4",
-    "tailwindcss-debug-screens": "^2.0.0",
-    "vite": "^2.3.6"
-=======
 # Tailwind Labs  <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg" alt="" width="32"/> 
 
 
