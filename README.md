@@ -8,7 +8,8 @@ npm run dev
 
 Follwing and engaging with the tutorial from TailwindLabs
 
-Without knowladge from React at the moment... [stopped at the 6th episode]
+## Completed the 6th Episode Components
+
 
 Creation of a web landing.
 
